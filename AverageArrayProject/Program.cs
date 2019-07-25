@@ -9,7 +9,7 @@ namespace AverageArrayProject {
             int index = 0;
             decimal sum = 0m;
             decimal average = 0.0m;
-            int total = scores.GetLength(0);
+            int total = scores.Length;
 
             // Begin a loop that runs through each index in Scores
             while (index < total) {
@@ -19,7 +19,8 @@ namespace AverageArrayProject {
 
             // When while has indexed run the if statement to find average
             if (index == total) {
-                average = sum / 12m;
+                average = sum / total;
+                average = Math.Round(average, 2);
             }
 
             // Print Average Message
