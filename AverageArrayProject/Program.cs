@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace AverageArrayProject {
-    class Program {
+    class Program { 
         static void Main(string[] args) {
             int[] scores = { 71, 78, 89, 73, 68, 73, 96, 71, 72, 65, 87, 63 };
             int index = 0;
