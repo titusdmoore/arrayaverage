@@ -10,9 +10,9 @@ namespace AverageArrayProject {
                 sum = sum + scores[index];
                 index++;
             }
-            int average = 0;
+            decimal average = 0.0m;
             if (index == 12) {
-                average = sum / 12;
+                average = sum / 12m;
             }
             Console.WriteLine($"The Average is {average}%");
         }
